@@ -2288,7 +2288,7 @@
             font-size: 4rem;
             color: indianred;">
             I LOVE YOU
-            <img src="/luon.jpg" style="width: 80px; height: 80px; border: none; border-radius: 3px; position: absolute;
+            <img onClick={handleLinkHeart()} src="/luon.jpg" style="width: 80px; height: 80px; border: none; border-radius: 3px; position: absolute;
             left: 105%;" />
         </h1>
         <div class='vehicle-body'>
@@ -2401,5 +2401,9 @@
 
 
 </body>
-
+<script>
+    function handleLinkHeart(){
+        window.open('_blank', 'file:///C:/Users/PC/OneDrive/Documents/Love/abc/index.html');
+    }
+</script>
 </html>
